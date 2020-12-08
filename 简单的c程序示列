@@ -1,0 +1,10 @@
+#include<stdio.h>//预处理器指令 。告诉编译器将stdio.h中的内容包含在当前程序中。stdio.h是c编译器软件包的标准部分，它提供键盘输入和屏幕输出的支持。 
+int main()//圆括号表示main是一个函数名，int表示main（）函数返回的一个整数。 
+{//左花括号表示函数定义的开始。 
+	int num;//定义一个整数类型的变量为num。 
+	num=1;//将1的值赋给变量num。 
+	printf("I am a simple ");//使用printf函数，为调用函数，在屏幕上显示函数内容。 
+	printf("computer\n");//同样调用printf函数，在屏幕上显示computer内容，\n表示换行表示。 
+	printf("My favorite number is %d because it is frist.\n",num);//调用printf函数，在里面镶嵌变量num的值%d，在后面标注%d所表示的变量值为num。 
+	return 0;
+}
